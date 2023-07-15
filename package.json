@@ -1,0 +1,46 @@
+{
+  "name": "enatours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinnatul/eNatours.git"
+  },
+  "author": "Morol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinnatul/eNatours/issues"
+  },
+  "homepage": "https://github.com/jinnatul/eNatours#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.1.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.0",
+    "express-rate-limit": "^5.1.3",
+    "helmet": "^3.22.1",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.19",
+    "mongoose": "^5.9.17",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.8",
+    "slugify": "^1.4.0",
+    "validator": "^13.1.0",
+    "xss-clean": "^0.1.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "devDependencies": {
+    "ndb": "^1.1.5",
+    "nodemon": "^2.0.4"
+  }
+}
